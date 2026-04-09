@@ -2,17 +2,12 @@
 
 
 ## 🚀 About Me
-QA Engineer with a focus on test automation using Python, backed by a strong background in quality control and process improvement.
+QA Engineer in training, focused on manual testing, API testing, and test automation with Python. I have worked on projects where I design test cases, document defects, and validate systems using tools such as JIRA and Postman. My background in quality control and process improvement allows me to bring an analytical and results-oriented approach.
 
-Experienced in manual testing, test case design, bug reporting, API testing (Postman), SQL, and test documentation. I ensure quality through structured testing and validation
-
-Focused on delivering high-quality products through structured testing, defect analysis, and continuous improvement.
-
-
-## 🔗 Links
-
+## 🔗 Contacto
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sophia-mariel-castro)
-
+📧 ing.sophiacastro@gmail.com
+📱+52 6145227695
 
 ## 🛠 Skills
 - Manual Testing
