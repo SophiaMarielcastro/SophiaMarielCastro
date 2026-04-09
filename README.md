@@ -1,4 +1,4 @@
-Updated on April 9
+Updated on April 9, 2026
 # Hi, I'm Sophia Castro! 👩🏻
 
 
