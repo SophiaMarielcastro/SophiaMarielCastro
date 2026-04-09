@@ -20,6 +20,7 @@ Focused on delivering high-quality products through structured testing, defect a
 - Bug Reporting
 - API Testing (Postman)
 - SQL for Data Validation
+- Excel advanced
 
 
 ## Projects
