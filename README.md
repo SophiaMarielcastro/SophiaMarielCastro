@@ -26,7 +26,7 @@ QA Engineer in training, focused on manual testing, API testing, and test automa
 ## 📊 Urban Grocers - API Testing Project
 
 ### Overview
-This project focuses on API testing and backend validation using Postman.
+Performed API testing based on the backend requirements documentation. The project focused on validating two main features: working with kits and working with delivery services.
 
 ### Objectives
 - Validate API endpoints
@@ -34,14 +34,12 @@ This project focuses on API testing and backend validation using Postman.
 - Identify backend defects
 
 ### Testing Activities
-- Designed positive and negative test scenarios
-- Created API checklists
-- Tested endpoints using Postman
-- Analyzed backend requirements using Apidoc
+For the first requirement, I tested the kit creation flow and modified product IDs to verify whether products could be successfully added to the shopping cart. I designed and executed positive and negative test cases, as well as equivalence partitioning and boundary value analysis, based on the backend requirements. Testing was carried out through Postman, using empty kits to ensure accurate validation of each scenario. When defects were identified, I documented them in Jira and linked them to the corresponding test cases so reviewers could easily trace the issue and its context.
+
+For the second requirement, I validated the “Order and Go” delivery service through the /order-and-go/v1/delivery endpoint. I tested whether the system correctly calculated delivery availability based on product count, total weight, and delivery time, according to the rules defined in the requirements sheet. I also verified that the API returned the expected responses for missing fields, invalid data types, incorrect body structures, and cases where delivery was not possible.
 
 ### Bug Reporting
-- Documented critical defects in JIRA
-- Contributed to improving system stability
+Throughout the project, I documented defects in Jira using detailed bug reports that included the issue description, steps to reproduce, expected result, actual result, severity, priority, and supporting evidence.
 
 ### Results
 - Improved system stability by 25% through defect identification
@@ -54,27 +52,21 @@ This project focuses on API testing and backend validation using Postman.
 ## 📍Urban Routes - Manual Testing Project
 
 ### Overview
-This project focuses on functional testing of a web/mobile application across multiple environments and versions.
+This project focuses on functional testing of a transportation web application across multiple environments and versions.
 
 ### Objectives
-- Validate application functionality
-- Ensure consistency across environments
-- Identify and document defects
+Manual QA testing project focused on identifying design flaws and functional issues in a web application. I executed cross-browser and responsive testing using Google Chrome (800×600) and Mozilla Firefox (1920×1080), ensuring consistent behavior across different environments.
 
 ### Testing Activities
-- Designed and executed 20+ functional test cases
-- Performed cross-environment and cross-version testing
-- Analyzed application logic and UI behavior
-- Created structured test documentation
+I designed and executed test cases based on defined requirements, validating critical user flows such as payment methods, card addition, and reservation functionality. My approach combined boundary value analysis, negative testing, and business logic validation to ensure system reliability.
 
 ### Bug Reporting
-- Reported defects using JIRA
-- Included detailed steps to reproduce, expected vs actual results, and severity
+During testing, I identified multiple defects related to UI behavior, data validation, and functional inconsistencies. All issues were documented in Jira with detailed bug reports, including clear reproduction steps, expected vs. actual results, severity and priority classification, and visual evidence to support efficient debugging and resolution.
 
-### Deliverables
-- Test cases
-- Bug reports
-- Test documentation
+### Results
+Based on the executed test cases and documented defects, I concluded that although the application’s UI aligns well with the Figma design, its functional quality is not production-ready. The high number of identified defects indicates significant gaps in validation and system reliability.
+
+Releasing the application without addressing these issues could result in negative user experience, increased customer complaints, and a decline in user retention.
 
 ### Tools Used
 - JIRA
