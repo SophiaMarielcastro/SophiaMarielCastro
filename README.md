@@ -38,11 +38,13 @@ For the first requirement, I tested the kit creation flow and modified product I
 
 For the second requirement, I validated the “Order and Go” delivery service through the /order-and-go/v1/delivery endpoint. I tested whether the system correctly calculated delivery availability based on product count, total weight, and delivery time, according to the rules defined in the requirements sheet. I also verified that the API returned the expected responses for missing fields, invalid data types, incorrect body structures, and cases where delivery was not possible.
 
-### Bug Reporting
+![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/f163ec565250a94b82a46f1470a9204627c822d6/45456.png)
+![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/61de347ea39bc2b310b821ab00fa56af6bec1635/1.png)![image alt]
+### 𖢥 Bug Reporting
 Throughout the project, I documented defects in Jira using detailed bug reports that included the issue description, steps to reproduce, expected result, actual result, severity, priority, and supporting evidence.
-
+![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/f163ec565250a94b82a46f1470a9204627c822d6/sprint%204.png)
 ### Results
-- Improved system stability by 25% through defect identification
+Improved system stability by 25% through defect identification
 
 ### Tools Used
 - Postman
@@ -59,8 +61,9 @@ Manual QA testing project focused on identifying design flaws and functional iss
 
 ### Testing Activities
 I designed and executed test cases based on defined requirements, validating critical user flows such as payment methods, card addition, and reservation functionality. My approach combined boundary value analysis, negative testing, and business logic validation to ensure system reliability.
+![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/f163ec565250a94b82a46f1470a9204627c822d6/Screenshot%202026-04-10%20132949.png)![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/f163ec565250a94b82a46f1470a9204627c822d6/Screenshot%202026-04-10%20134628.png)
 
-### Bug Reporting
+### 𖢥 Bug Reporting
 During testing, I identified multiple defects related to UI behavior, data validation, and functional inconsistencies. All issues were documented in Jira with detailed bug reports, including clear reproduction steps, expected vs. actual results, severity and priority classification, and visual evidence to support efficient debugging and resolution.
 
 ### Results
