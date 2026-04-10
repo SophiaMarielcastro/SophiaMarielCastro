@@ -39,7 +39,7 @@ For the first requirement, I tested the kit creation flow and modified product I
 For the second requirement, I validated the “Order and Go” delivery service through the /order-and-go/v1/delivery endpoint. I tested whether the system correctly calculated delivery availability based on product count, total weight, and delivery time, according to the rules defined in the requirements sheet. I also verified that the API returned the expected responses for missing fields, invalid data types, incorrect body structures, and cases where delivery was not possible.
 
 ![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/f163ec565250a94b82a46f1470a9204627c822d6/45456.png)
-![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/61de347ea39bc2b310b821ab00fa56af6bec1635/1.png)![image alt]
+![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/61de347ea39bc2b310b821ab00fa56af6bec1635/1.png)!
 ### 𖢥 Bug Reporting
 Throughout the project, I documented defects in Jira using detailed bug reports that included the issue description, steps to reproduce, expected result, actual result, severity, priority, and supporting evidence.
 ![image alt](https://github.com/SophiaMarielcastro/SophiaMarielCastro/blob/f163ec565250a94b82a46f1470a9204627c822d6/sprint%204.png)
